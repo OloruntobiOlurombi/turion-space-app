@@ -1,3 +1,8 @@
+import requests
+from app import app
+import multiprocessing
+import time
+
 # Run Flask app in a separate process for integration testing
 def run_app():
     app.run(host="0.0.0.0", port=5000)
