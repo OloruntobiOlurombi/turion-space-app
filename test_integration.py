@@ -15,7 +15,7 @@ def test_integration():
 
     # Check that the response is as expected
     assert response.status_code == 200
-    assert response.text == "Hello, Welcome to Zip Reg Tech!"
+    assert response.text == "Hello, Welcome to Turion Space!"
 
     # Terminate the Flask app process
     p.terminate()
