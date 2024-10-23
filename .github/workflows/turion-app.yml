@@ -254,3 +254,4 @@ jobs:
       run: | 
         echo "Deployment failed. Rolling back..."
         kubectl rollout undo deployment.apps/turion-app-deployment
+        
